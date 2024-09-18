@@ -1,0 +1,36 @@
+/* core style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.container2 {
+    width: 1172px;
+    margin: 0 auto;
+}
+
+.container3 {
+    width: 1240px;
+    margin: 0 auto;
+}
