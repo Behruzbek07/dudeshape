@@ -23,7 +23,7 @@
     gap: 40px;
 }
 
-.header-list li {
+.header-list a {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -227,5 +227,36 @@ i {
     margin: 130px 0px;
 }
 
+/* about product */
 
+.about-product {
+    display: flex;
+    gap: 32px;
+}
 
+.a-p__title {
+    padding: 45px 0px 0px 0px;
+    width: 520px;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.a-p__desc {
+    width: 608px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #555555;
+}
+
+.a-p__botton {
+    width: 148px;
+    height: 56px;
+    background-color: #402F2C;
+}
+
+.a-p__btn {
+    color: #FFFFFF;
+}
