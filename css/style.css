@@ -242,6 +242,10 @@ i {
     line-height: 70px;
 }
 
+.about-product__desc {
+    margin-bottom: 50px;
+}
+
 .a-p__desc {
     width: 608px;
     margin-top: 20px;
@@ -251,12 +255,78 @@ i {
     color: #555555;
 }
 
-.a-p__botton {
-    width: 148px;
-    height: 56px;
+.about-product__btn {
+    padding: 16px 32px;
     background-color: #402F2C;
+    color: #FFFFFF;
 }
 
-.a-p__btn {
-    color: #FFFFFF;
+/* About us */
+
+.about-us {
+    display: flex;
+    gap: 54px;
+    margin: 130px 132px 130px -63px;
+}
+
+.about__info {
+    margin-top: 30px;
+}
+
+.a-i__title {
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 30px;
+    color: #222222;
+}
+
+.stars {
+    margin-top: 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.about__desc {
+    margin: 43px 0px 79px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #555555;
+}
+
+.rusmin {
+    color: #222222;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.desin {
+    color: #555555;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.direction {
+    margin-top: 30px;
+    display: flex;
+    gap: 36px;
+    width: 32px;
+    height: 32px;
+}
+
+.d-img {
+    width: 32px;
+    height: 32px;
+    padding: 4px 8px;
+    border-radius: 100px;
+}
+
+.d-active {
+    border: 1px solid #6FB587;
+}
+
+.d-inactive {
+    border: 1px solid #6FB58726;
 }
