@@ -79,9 +79,8 @@
 
 .m-icon {
     position: absolute;
-    top: 55px;
+    top: 35px;
     left: 282px;
-    transform: translateY(-50%);
     font-size: 16px;
     padding: 10px;
     background-color: #402F2C;
@@ -329,4 +328,119 @@ i {
 
 .d-inactive {
     border: 1px solid #6FB58726;
+}
+
+/* Subscribe */
+
+.wrapper {
+    background-color: #FAFAFA;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 103px;
+    padding-bottom: 59px;
+}
+
+.subscribe__title {
+    color: #222222;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+}
+
+.subscribe__form {
+    display: flex;
+    position: relative;
+}
+
+.s__input {
+    border: none;
+    width: 386px;
+    height: 56px;
+    left: 0px;
+    padding: 18px 0px 18px 18px;
+}
+
+.s__btn {
+    position: absolute;
+    top: 8px;
+    left: 275px;
+    background-color: #402F2C;
+    color: white;
+    width: 103px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 20px;
+    right: 0px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    gap: 212px;
+    padding: 59px 0px 52px 0px;
+}
+
+.f-i__title {
+    color: #222222;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+.f-i__desc {
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 326px;
+    padding-top: 38px;
+}
+
+.footer-lists {
+    padding-top: 25px;
+    display: flex;
+    gap: 213px;
+}
+
+.list__title {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.width {
+    width: 96px;
+}
+
+.list {
+    padding-top: 37px;
+}
+
+.list li {
+    padding-bottom: 20px;
+}
+
+.list a {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 26px;
+}
+
+.footer-icons i {
+    width: 12.84px;
+    height: 12.84px;
 }
