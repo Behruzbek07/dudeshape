@@ -211,6 +211,12 @@ i {
 
 .p-c__inactive {
     border: 1px solid #685A5275;
+    color: #402F2C;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+
+
 }
 
 .p-c__price {
